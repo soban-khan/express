@@ -5,6 +5,9 @@ const path = require('path')
 // setup static and middleware
 app.use(express.static('./public'))
 
+
+// this can be done by adding to static asset
+// second way can be server side rendering tempelate
 // app.get('/', (req, res) => {
 //     res.sendFile(path.resolve(__dirname, './navbar-app/index.html'))
 // })
