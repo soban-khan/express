@@ -11,7 +11,6 @@ app.use(express.urlencoded({ extended: false }))
 // parse json data
 app.use(express.json())
 
-// routers
 app.use('/api/people', people)
 app.use('/login', login)
 
